@@ -144,7 +144,8 @@ To find the <container_id>, run ```docker ps``` or use Docker Desktop, and copy 
 
       The Rest API accessible at ```localhost:5000``` has the following endpoints:
   1. ```POST /seismic_events```: Self-Report Seismic Activity in you region
-   Request Body should adhere to the format for a successful submission:
+   
+   Request Body should adhere to the given format for a successful submission:
    ```json
    {
     "magnitude":"float",
